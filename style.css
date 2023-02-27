@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 1170px / 2);
+    padding-right: calc(50% - 1170px / 2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: #ffffff;
+    gap: 60px;
+    height: 491px;
+}
+
+.header__items1 {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    width: 310px;
+}
+
+.header__items {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 370px;
+    height: 291px;
+    background: #ffffff;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.header__items__box {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.heading {
+    margin-top: 25px;
+    margin-bottom: 17px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.link__header {
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.header__text {
+    margin-top: 19px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background: #fafafa;
+}
+
+.header__content {
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading__content {
+    width: 579px;
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.header__text__content {
+    width: 682px;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.top__content {
+    padding-top: 55px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #fafafa;
+}
+
+.top__content__item {
+    width: 370px;
+    padding-bottom: 50px;
+    background: #ffffff;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__item {
+    width: 310px;
+    margin-top: 22px;
+    margin-bottom: 39px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #aaaaaa;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    background: #f25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
